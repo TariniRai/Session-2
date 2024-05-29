@@ -49,3 +49,19 @@ print (st_phones, st_laptops, st_watch, st_airpods, st_tv)
 firstly = input("what is the number?: ")
 secondly = input("what is your name?: ")
 print(firstly,secondly) 
+
+import statistics
+
+#initializing list
+li = [11,22,33,33,22,21,26,15]
+
+#using mode() to calculate average of list
+#eleminates
+print("The average of list value is : ", end="")  #print statements
+print(statistics.mean(li))
+
+print("The average of list value is : ", end="")  #print statements
+print(statistics.median(li))
+
+print("The average of list value is : ", end="")  #print statements
+print(statistics.mode(li))
