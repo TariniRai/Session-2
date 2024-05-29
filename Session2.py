@@ -65,3 +65,14 @@ print(statistics.median(li))
 
 print("The average of list value is : ", end="")  #print statements
 print(statistics.mode(li))
+
+#defining a function
+
+def is_palindrome(word):
+x = 0
+for i in range (len(word)/2):
+    if (word[x]) == (word[len(word)-x-1]):
+        x+=1
+        if x == (len(word)/2):
+            result True
+            result False 
